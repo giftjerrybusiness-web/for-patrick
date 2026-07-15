@@ -1,14 +1,22 @@
-// When the button is clicked, go to the envelope page
-
 document.addEventListener("DOMContentLoaded", () => {
 
     const startBtn = document.getElementById("startBtn");
 
-    if(startBtn){
+    if (startBtn) {
 
         startBtn.addEventListener("click", () => {
 
-            window.location.href = "envelope.html";
+            startBtn.innerHTML = "Opening... 🤍";
+
+            startBtn.disabled = true;
+
+            document.body.style.opacity = "0";
+
+            setTimeout(() => {
+
+                window.location.href = "envelope.html";
+
+            },1000);
 
         });
 
