@@ -88,7 +88,27 @@ font-size:24px;
 color:#E9E3D8;
 
 letter-spacing:.
+.letter::before{
 
+content:"";
+
+position:absolute;
+
+inset:0;
+
+background:linear-gradient(
+
+180deg,
+
+rgba(255,255,255,.15),
+
+rgba(255,255,255,0)
+
+);
+
+pointer-events:none;
+
+}
 
 button
 
