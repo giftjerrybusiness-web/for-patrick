@@ -255,4 +255,44 @@ opacity:.15;
 }
 }
 /* ---------- Twinkling Stars ---------- */
+.heart{
 
+position:fixed;
+
+font-size:18px;
+
+color:#ffd9e8;
+
+animation:heartFloat 12s linear infinite;
+
+opacity:.25;
+
+pointer-events:none;
+
+}
+
+@keyframes heartFloat{
+
+0%{
+
+transform:translateY(100vh);
+
+opacity:0;
+
+}
+
+20%{
+
+opacity:.25;
+
+}
+
+100%{
+
+transform:translateY(-120vh);
+
+opacity:0;
+
+}
+
+}
