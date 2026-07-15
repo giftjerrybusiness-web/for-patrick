@@ -35,18 +35,26 @@ body{
 
     box-shadow:
     0 0 30px rgba(255,215,0,.08),
-    0 0 80px rgba(255,255,255,.03);
-}
-
-h1{
-
-    font-size:3rem;
-
-    color:#F6D365;
-
+    0 0 80px rgba(255,255,255,.#
     margin-bottom:25px;
 
     letter-spacing:2px;
+}h1{
+
+font-family:'Great Vibes',cursive;
+
+font-size:72px;
+
+font-weight:400;
+
+color:#F5D78A;
+
+margin-bottom:25px;
+
+text-shadow:
+
+0 0 15px rgba(255,215,120,.3);
+
 }
 
 p{
