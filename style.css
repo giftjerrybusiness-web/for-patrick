@@ -57,18 +57,16 @@ text-shadow:
 
 }
 
-p{
+p{p{
 
-    font-size:1.2rem;
+font-size:24px;
 
-    line-height:2;
+color:#E9E3D8;
 
-    color:#dddddd;
+letter-spacing:.
 
-    margin-bottom:50px;
-}
 
-button{
+button
 
     padding:18px 50px;
 
