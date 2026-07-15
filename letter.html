@@ -15,7 +15,15 @@
 
 body{
 body{
+<div class="firefly" style="left:10%;animation-delay:0s;"></div>
 
+<div class="firefly" style="left:30%;animation-delay:2s;"></div>
+
+<div class="firefly" style="left:50%;animation-delay:4s;"></div>
+
+<div class="firefly" style="left:70%;animation-delay:6s;"></div>
+
+<div class="firefly" style="left:90%;animation-delay:8s;"></div>
 background:#000;
 
 background-image:url("assets/stars.png");
@@ -121,7 +129,27 @@ opacity:.8;
 filter:drop-shadow(0 0 25px rgba(255,255,255,.4));
 
 animation:floatMoon 6s ease-in-out infinite;
+@keyframes moonFloat{
 
+0%{
+
+transform:translateY(0px);
+
+}
+
+50%{
+
+transform:translateY(-12px);
+
+}
+
+100%{
+
+transform:translateY(0px);
+
+}
+
+}
 }
 <head>
 
@@ -286,3 +314,42 @@ music.volume=.25;
 </script>
 
 </html>
+.firefly{
+
+position:fixed;
+
+width:6px;
+
+height:6px;
+
+background:#FFD76A;
+
+border-radius:50%;
+
+box-shadow:
+
+0 0 15px #FFD76A,
+
+0 0 30px #FFD76A;
+
+animation:floatFirefly 12s linear infinite;
+
+opacity:.8;
+
+}
+
+@keyframes floatFirefly{
+
+0%{
+
+transform:translateY(100vh);
+
+}
+
+100%{
+
+transform:translateY(-120vh);
+
+}
+
+}
