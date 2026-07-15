@@ -107,7 +107,49 @@ text-align:right;
 }
 
 </style>.moon{
+<head>
 
+...
+
+<style>
+
+/* Your existing CSS */
+
+body{
+...
+}
+
+.letter{
+...
+}
+
+.signature{
+...
+}
+
+/* 👇 Paste Step 15 here */
+
+.letter::before{
+
+content:"";
+
+position:absolute;
+
+inset:0;
+
+background:linear-gradient(
+180deg,
+rgba(255,255,255,.15),
+rgba(255,255,255,0)
+);
+
+pointer-events:none;
+
+}
+
+</style>
+
+</head>
 
 position:fixed;
 
