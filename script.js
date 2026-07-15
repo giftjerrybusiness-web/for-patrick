@@ -1,25 +1,19 @@
-document.addEventListener("DOMContentLoaded", () => {
+const letter=document.getElementById("letter");
 
-    const startBtn = document.getElementById("startBtn");
+if(letter){
 
-    if (startBtn) {
+letter.style.opacity="0";
 
-        startBtn.addEventListener("click", () => {
+window.onload=()=>{
 
-            startBtn.innerHTML = "Opening... 🤍";
+setTimeout(()=>{
 
-            startBtn.disabled = true;
+letter.style.transition="2s";
 
-            document.body.style.opacity = "0";
+letter.style.opacity="1";
 
-            setTimeout(() => {
+},700);
 
-                window.location.href = "envelope.html";
+}
 
-            },1000);
-
-        });
-
-    }
-
-});
+}
