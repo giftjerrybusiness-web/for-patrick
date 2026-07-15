@@ -10,8 +10,8 @@
 }
 
 body{
-    font-family: "Georgia", serif;
-    background: linear-gradient(135deg,#090909,#141414,#1b1b1b);
+    font- ;font-family: 'Cormorant Garamond', serif;
+   background: linear-gradient(135deg,#090909,#141414,#1b1b1b);
     color:#f8f5ef;
     height:100vh;
     display:flex;
