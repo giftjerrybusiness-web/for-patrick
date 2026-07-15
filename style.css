@@ -38,7 +38,31 @@ body{
     0 0 80px rgba(255,255,255,.#
     margin-bottom:25px;
 
-    letter-spacing:2px;
+    letter-spacing:2px;.letter{
+
+animation:letterAppear 2.5s ease;
+
+}
+
+@keyframes letterAppear{
+
+0%{
+
+opacity:0;
+
+transform:translateY(80px);
+
+}
+
+100%{
+
+opacity:1;
+
+transform:translateY(0);
+
+}
+
+}
 }h1{
 
 font-family:'Great Vibes',cursive;
